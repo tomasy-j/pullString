@@ -25,5 +25,4 @@ with_mock_dir("get_string_version", {
       "https://version-12-0.string-db.org"
     )
   })
-
 })
