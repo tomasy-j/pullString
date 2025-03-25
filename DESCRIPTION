@@ -1,10 +1,11 @@
 Package: pullString
 Type: Package
 Title: R STRING DB Interface
-Version: 0.1.0
-Author: Tomasz Janczyk
-Description: R STRING DB API Interface
-License: GNU
+Version: 0.4.0
+Authors@R: person("Tomasz", "Janczyk", email = "janczyk.tom@gmail.com",
+  role = c("aut", "cre"))
+Description: Collection of functions to interact with STRING Database.
+License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
 Suggests: 
@@ -13,5 +14,7 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     httr2,
-    readr
+    readr,
+    shiny
 RoxygenNote: 7.3.1
+StagedInstall: no
