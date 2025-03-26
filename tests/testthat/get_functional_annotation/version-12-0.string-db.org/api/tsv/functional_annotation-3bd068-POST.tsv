@@ -1,0 +1,4 @@
+category	term	number_of_genes	ratio_in_set	ncbiTaxonId	inputGenes	preferredNames	description
+COMPARTMENTS	GOCC:0005576	4	1	9606	"IFNA1,CXCL10,POSTN,SERPINB2"	"IFNA1,CXCL10,POSTN,SERPINB2"	Extracellular region
+COMPARTMENTS	GOCC:0005615	2	0.5	9606	"CXCL10,SERPINB2"	"CXCL10,SERPINB2"	Extracellular space
+COMPARTMENTS	GOCC:0005622	2	0.5	9606	"POSTN,SERPINB2"	"POSTN,SERPINB2"	Intracellular

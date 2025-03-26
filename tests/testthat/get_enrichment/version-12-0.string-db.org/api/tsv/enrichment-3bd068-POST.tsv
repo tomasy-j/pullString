@@ -1,0 +1,112 @@
+category	term	number_of_genes	number_of_genes_in_background	ncbiTaxonId	inputGenes	preferredNames	p_value	fdr	description
+KEGG	hsa04620	2	100	9606	IFNA1,CXCL10	IFNA1,CXCL10	0.00016	0.0209	Toll-like receptor signaling pathway
+KEGG	hsa04622	2	69	9606	IFNA1,CXCL10	IFNA1,CXCL10	7.65e-05	0.0209	RIG-I-like receptor signaling pathway
+KEGG	hsa04623	2	62	9606	IFNA1,CXCL10	IFNA1,CXCL10	6.21e-05	0.0209	Cytosolic DNA-sensing pathway
+KEGG	hsa05160	2	157	9606	IFNA1,CXCL10	IFNA1,CXCL10	0.00038	0.0323	Hepatitis C
+KEGG	hsa05164	2	163	9606	IFNA1,CXCL10	IFNA1,CXCL10	0.00041	0.0323	Influenza A
+KEGG	hsa05169	2	192	9606	IFNA1,CXCL10	IFNA1,CXCL10	0.00057	0.0323	Epstein-Barr virus infection
+PMID	PMID:36873050	3	15	9606	IFNA1,POSTN,SERPINB2	IFNA1,POSTN,SERPINB2	2.56e-09	0.0108	(2023) Immunomodulatory role of oral microbiota in inflammatory diseases and allergic conditions.
+PMID	PMID:32422146	3	14	9606	IFNA1,POSTN,SERPINB2	IFNA1,POSTN,SERPINB2	2.13e-09	0.0108	(2020) Type 2 inflammation modulates ACE2 and TMPRSS2 in airway epithelial cells.
+PMID	PMID:31616630	3	15	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	2.56e-09	0.0108	(2019) Bexarotene Reduces Production of CCL22 From Tumor-Associated Macrophages in Cutaneous T-Cell Lymphoma.
+PMID	PMID:30941334	3	28	9606	IFNA1,POSTN,SERPINB2	IFNA1,POSTN,SERPINB2	1.41e-08	0.0178	(2019) Pathophysiological Mechanisms of Asthma.
+PMID	PMID:39758936	2	10	9606	CXCL10,POSTN	CXCL10,POSTN	2.04e-06	0.0207	(2025) Predicting the effectiveness of omalizumab in patients with refractory chronic rhinosinusitis with nasal polyps comorbid with asthma based on inflammatory biomarkers.
+PMID	PMID:39881471	2	8	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.39e-06	0.0207	(2025) Pulmonary and serum cytokine profiles of patients with anti-ARS and anti-MDA5 antibodies.
+PMID	PMID:39979069	2	8	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.39e-06	0.0207	(2025) Phase I dose-escalation and pharmacodynamic study of STING agonist E7766 in advanced solid tumors.
+PMID	PMID:37930937	3	73	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	2.2e-07	0.0207	(2024) Spatial and Single-Cell Transcriptomics Reveal a Cancer-Associated Fibroblast Subset in HNSCC That Restricts Infiltration and Antitumor Activity of CD8+ T Cells.
+PMID	PMID:38191908	2	9	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.7e-06	0.0207	(2024) Time of day bias for biological sampling in studies of mammary cancer.
+PMID	PMID:38272885	2	9	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.7e-06	0.0207	(2024) Investigating the etiologies of non-malarial febrile illness in Senegal using metagenomic sequencing.
+PMID	PMID:38303024	3	130	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	1.2e-06	0.0207	(2024) Macrophage heterogeneity and its interactions with stromal cells in tumour microenvironment.
+PMID	PMID:38346410	2	10	9606	IFNA1,CXCL10	IFNA1,CXCL10	2.04e-06	0.0207	(2024) Food Insecurity and Undernutrition Are Associated With Distinct Immunologic Profiles in People With Tuberculosis and Advanced HIV Starting Antiretroviral Therapy.
+PMID	PMID:38352830	2	9	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.7e-06	0.0207	(2024) Discovery of Novel TLR7 Agonists as Systemic Agent for Combination With aPD1 for Use in Immuno-oncology.
+PMID	PMID:38494094	2	3	9606	IFNA1,CXCL10	IFNA1,CXCL10	3.09e-07	0.0207	(2024) Association between polymorphisms on chromosome 17q12-q21 and rhinovirus-induced interferon responses.
+PMID	PMID:38510687	2	5	9606	IFNA1,CXCL10	IFNA1,CXCL10	6.49e-07	0.0207	(2024) Cytokine and chemokine profiles in ulcerative colitis relapse after coronavirus disease 2019 vaccination.
+PMID	PMID:38580753	2	3	9606	POSTN,SERPINB2	POSTN,SERPINB2	3.09e-07	0.0207	(2024) CDC167 exhibits potential as a biomarker for airway inflammation in asthma.
+PMID	PMID:38631714	2	7	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.11e-06	0.0207	(2024) Efficacy of LCMV-based cancer immunotherapies is unleashed by intratumoral injections of polyI:C.
+PMID	PMID:38639267	2	7	9606	POSTN,SERPINB2	POSTN,SERPINB2	1.11e-06	0.0207	(2024) Increased SERPINB2 potentiates 15LO1 expression via STAT6 signalling in epithelial cells in eosinophilic chronic rhinosinusitis with nasal polyps.
+PMID	PMID:38675770	2	8	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.39e-06	0.0207	(2024) Innate Responses to the Former COVID-19 Vaccine Candidate CVnCoV and Their Relation to Reactogenicity and Adaptive Immunogenicity.
+PMID	PMID:38767608	2	9	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.7e-06	0.0207	(2024) Impact of the host immune response on the development of equine herpesvirus myeloencephalopathy in horses.
+PMID	PMID:38901243	2	5	9606	IFNA1,CXCL10	IFNA1,CXCL10	6.49e-07	0.0207	(2024) A novel oral TLR7 agonist orchestrates immune response and synergizes with PD-L1 blockade via type I IFN pathway in lung cancer.
+PMID	PMID:38945856	2	5	9606	IFNA1,CXCL10	IFNA1,CXCL10	6.49e-07	0.0207	(2024) Characterization of the Proinflammatory Cytokine Profile during Acute SARS-CoV-2 Infection in People with Human Immunodeficiency Virus.
+PMID	PMID:39045132	2	5	9606	IFNA1,CXCL10	IFNA1,CXCL10	6.49e-07	0.0207	(2024) Pathoimmunological analyses of fatal E11 infection in premature infants.
+PMID	PMID:39119977	2	6	9606	IFNA1,CXCL10	IFNA1,CXCL10	8.65e-07	0.0207	(2024) Using exploratory pharmacokinetic and pharmacodynamic analyses to predict the probability of flu-like symptoms in healthy volunteers and patients with chronic hepatitis B treated with the toll-like receptor 7 agonist ruzotolimod.
+PMID	PMID:39198441	2	6	9606	IFNA1,CXCL10	IFNA1,CXCL10	8.65e-07	0.0207	(2024) Early biological markers of post-acute sequelae of SARS-CoV-2 infection.
+PMID	PMID:39264798	2	8	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.39e-06	0.0207	(2024) A positive cytokinechemokine feedback loop establishes plasmacytoid DC-driven autoimmune pancreatitis in IgG4-related disease.
+PMID	PMID:39312669	2	8	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.39e-06	0.0207	(2024) A sensitive assay for measuring whole-blood responses to type I IFNs.
+PMID	PMID:39432177	2	7	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.11e-06	0.0207	(2024) Immunological sub-phenotypes and response to convalescent plasma in COVID-19 induced ARDS: a secondary analysis of the CONFIDENT trial.
+PMID	PMID:39664394	2	6	9606	IFNA1,CXCL10	IFNA1,CXCL10	8.65e-07	0.0207	(2024) Prognostic performance of early immune and endothelial activation markers in mild-to-moderate COVID-19 outpatients: a nested case-control study.
+PMID	PMID:39709485	2	9	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.7e-06	0.0207	(2024) Brain derived beta-interferon is a potential player in Alzheimers disease pathogenesis and cognitive impairment.
+PMID	PMID:36066606	2	8	9606	POSTN,SERPINB2	POSTN,SERPINB2	1.39e-06	0.0207	(2023) Low CC16 mRNA Expression Levels in Bronchial Epithelial Cells Are Associated with Asthma Severity.
+PMID	PMID:36596376	2	5	9606	IFNA1,CXCL10	IFNA1,CXCL10	6.49e-07	0.0207	(2023) Sesamol alleviates manganese-induced neuroinflammation and cognitive impairment via regulating the microglial cGAS-STINGNF-kappaB pathway.
+PMID	PMID:36597127	2	7	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.11e-06	0.0207	(2023) Clinical and serological association of plasma 25-hydroxyvitamin D (25(OH)D) levels in lupus and the short-term effects of oral vitamin D supplementation.
+PMID	PMID:36600243	3	99	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	5.37e-07	0.0207	(2023) Intimate communications within the tumor microenvironment: stromal factors function as an orchestra.
+PMID	PMID:36611087	2	8	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.39e-06	0.0207	(2023) Differences and similarities in cytokine profiles of macrophage activation syndrome in systemic lupus erythematosus and adult-onset Stills disease.
+PMID	PMID:36691849	2	5	9606	IFNA1,CXCL10	IFNA1,CXCL10	6.49e-07	0.0207	(2023) Population pharmacokineticpharmacodynamic models of JNJ-64794964, a toll-like receptor 7 agonist, in healthy adult participants.
+PMID	PMID:36722341	2	6	9606	IFNA1,CXCL10	IFNA1,CXCL10	8.65e-07	0.0207	(2023) Practical challenges for functional validation of STAT1 gain of function genetic variants.
+PMID	PMID:36733482	2	10	9606	POSTN,SERPINB2	POSTN,SERPINB2	2.04e-06	0.0207	(2023) Transcriptomic analysis of asthma and allergic rhinitis reveals CST1 as a biomarker of unified airways.
+PMID	PMID:36777184	3	41	9606	IFNA1,POSTN,SERPINB2	IFNA1,POSTN,SERPINB2	4.15e-08	0.0207	(2023) Genomic characterization and therapeutic utilization of IL-13-responsive sequences in asthma.
+PMID	PMID:36798827	2	10	9606	CXCL10,POSTN	CXCL10,POSTN	2.04e-06	0.0207	(2023) Editorial: Revisiting seed and soil: A new approach to target hibernating dormant tumor cells.
+PMID	PMID:36970266	2	4	9606	IFNA1,CXCL10	IFNA1,CXCL10	4.64e-07	0.0207	(2023) Editorial: Integrating molecular research into clinical psychiatry: An application to schizophrenia and mood disorders.
+PMID	PMID:37124043	2	8	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.39e-06	0.0207	(2023) Bibliometric and visualized analysis of elite controllers based on CiteSpace: landscapes, hotspots, and frontiers.
+PMID	PMID:37140667	3	95	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	4.76e-07	0.0207	(2023) JAKs and STATs from a Clinical Perspective: Loss-of-Function Mutations, Gain-of-Function Mutations, and Their Multidimensional Consequences.
+PMID	PMID:37148201	2	6	9606	CXCL10,POSTN	CXCL10,POSTN	8.65e-07	0.0207	(2023) Role of clinical biomarkers in predicting the effectiveness of omalizumab.
+PMID	PMID:37199270	2	8	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.39e-06	0.0207	(2023) A single, oral dose of the TLR7 agonist JNJ-64794964 induces transcriptomic and phenotypic changes in peripheral immune cells in healthy adults.
+PMID	PMID:37204055	2	5	9606	IFNA1,CXCL10	IFNA1,CXCL10	6.49e-07	0.0207	(2023) Persistently active interferon-gamma pathway and expansion of T-bet(+) B cells in a subset of patients with childhood-onset systemic lupus erythematosus.
+PMID	PMID:37214943	2	4	9606	IFNA1,CXCL10	IFNA1,CXCL10	4.64e-07	0.0207	(2023) Toll-like receptor 7 (TLR7)-mediated antiviral response protects mice from lethal SARS-CoV-2 infection.
+PMID	PMID:37256114	3	59	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	1.18e-07	0.0207	(2023) Roles of inflammasomes in viral myocarditis.
+PMID	PMID:37333845	2	8	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.39e-06	0.0207	(2023) Evaluation of the IP-10 mRNA release assay for diagnosis of TB in HIV-infected individuals.
+PMID	PMID:37376606	2	4	9606	IFNA1,CXCL10	IFNA1,CXCL10	4.64e-07	0.0207	(2023) Dominant CT Patterns and Immune Responses during the Early Infection Phases of Different SARS-CoV-2 Variants.
+PMID	PMID:37446165	3	34	9606	IFNA1,POSTN,SERPINB2	IFNA1,POSTN,SERPINB2	2.44e-08	0.0207	(2023) Anti-Fibrotic Effects of RF Electric Currents.
+PMID	PMID:37463917	3	92	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	4.33e-07	0.0207	(2023) Cancer-associated fibroblast classification in single-cell and spatial proteomics data.
+PMID	PMID:37469907	2	9	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.7e-06	0.0207	(2023) Systemic Review and Meta-Analysis to Evaluate Therapeutic Effectiveness of Interferon Beta-1b in Hospitalized COVID-19 Patients.
+PMID	PMID:37491527	3	67	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	1.71e-07	0.0207	(2023) Leveraging translational insights toward precision medicine approaches for brain metastases.
+PMID	PMID:37508085	2	10	9606	IFNA1,CXCL10	IFNA1,CXCL10	2.04e-06	0.0207	(2023) Portulaca oleracea L. Polysaccharide Inhibits Porcine Rotavirus In Vitro.
+PMID	PMID:37511632	3	58	9606	CXCL10,POSTN,SERPINB2	CXCL10,POSTN,SERPINB2	1.13e-07	0.0207	(2023) New Gene Markers of Exosomal Regulation Are Involved in Porcine Granulosa Cell Adhesion, Migration, and Proliferation.
+PMID	PMID:37605155	3	146	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	1.69e-06	0.0207	(2023) Exosomal miRNA-mediated intercellular communications and immunomodulatory effects in tumor microenvironments.
+PMID	PMID:37622582	2	7	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.11e-06	0.0207	(2023) Expression of macrophagedendritic cell-related molecules in lymph node sinus macrophages.
+PMID	PMID:37646037	2	5	9606	IFNA1,CXCL10	IFNA1,CXCL10	6.49e-07	0.0207	(2023) The impact of innate immunity on malaria parasite infection dynamics in rodent models.
+PMID	PMID:37662407	2	7	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.11e-06	0.0207	(2023) Improving diagnosis of non-malarial fevers in Senegal: Borrelia and the contribution of tick-borne bacteria.
+PMID	PMID:37679810	3	95	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	4.76e-07	0.0207	(2023) Transcriptional immunogenomic analysis reveals distinct immunological clusters in paediatric nervous system tumours.
+PMID	PMID:37685567	3	48	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	6.52e-08	0.0207	(2023) Advances in the Relationship between Respiratory Viruses and Asthma.
+PMID	PMID:37686315	3	109	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	7.12e-07	0.0207	(2023) The Dual Role of Mesenchymal Stem Cells in Cancer Pathophysiology: Pro-Tumorigenic Effects versus Therapeutic Potential.
+PMID	PMID:37727739	2	10	9606	IFNA1,CXCL10	IFNA1,CXCL10	2.04e-06	0.0207	(2023) Chemoimmunotherapy triggers immune responses targeting microsatellite stable colorectal cancer.
+PMID	PMID:37731495	2	7	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.11e-06	0.0207	(2023) Predictive values of immune indicators on respiratory failure in the early phase of COVID-19 due to Delta and precedent variants.
+PMID	PMID:37766253	2	10	9606	IFNA1,CXCL10	IFNA1,CXCL10	2.04e-06	0.0207	(2023) Mucosal Application of a Low-Energy Electron Inactivated Respiratory Syncytial Virus Vaccine Shows Protective Efficacy in an Animal Model.
+PMID	PMID:37830128	3	82	9606	CXCL10,POSTN,SERPINB2	CXCL10,POSTN,SERPINB2	3.09e-07	0.0207	(2023) Targeting of endothelial cells in brain tumours.
+PMID	PMID:37852657	3	35	9606	CXCL10,POSTN,SERPINB2	CXCL10,POSTN,SERPINB2	2.64e-08	0.0207	(2023) How inhaled corticosteroids target inflammation in COPD.
+PMID	PMID:37868834	3	146	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	1.69e-06	0.0207	(2023) Biomarkers in the Pathogenesis, Diagnosis, and Treatment of Systemic Sclerosis.
+PMID	PMID:37876736	2	9	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.7e-06	0.0207	(2023) Interferon-lambda3 rs12979860 can regulate inflammatory cytokines production in pulmonary fibrosis.
+PMID	PMID:37895153	3	69	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	1.87e-07	0.0207	(2023) The Communication from Immune Cells to the Fibroblasts in Keloids: Implications for Immunotherapy.
+PMID	PMID:37904989	3	57	9606	IFNA1,POSTN,SERPINB2	IFNA1,POSTN,SERPINB2	1.07e-07	0.0207	(2023) Increased epithelial mTORC1 activity in chronic rhinosinusitis with nasal polyps.
+PMID	PMID:37961223	3	118	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	9e-07	0.0207	(2023) Breast Cancer Macrophage Heterogeneity and Self-renewal are Determined by Spatial Localization.
+PMID	PMID:38025911	2	8	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.39e-06	0.0207	(2023) Experimental animal models for development of human enterovirus vaccine.
+PMID	PMID:38025973	2	9	9606	CXCL10,POSTN	CXCL10,POSTN	1.7e-06	0.0207	(2023) Investigating the gut microbiotas influence on psoriasis and psoriatic arthritis risk: a Mendelian randomization analysis.
+PMID	PMID:38047068	3	109	9606	IFNA1,CXCL10,SERPINB2	IFNA1,CXCL10,SERPINB2	7.12e-07	0.0207	(2023) Early cellular and molecular signatures correlate with severity of West Nile virus infection.
+PMID	PMID:38129401	3	155	9606	IFNA1,POSTN,SERPINB2	IFNA1,POSTN,SERPINB2	2.01e-06	0.0207	(2023) New insights into the correlations between circulating tumor cells and target organ metastasis.
+PMID	PMID:38312128	3	77	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	2.57e-07	0.0207	(2023) Mechanisms and therapeutic strategies to combat the recurrence and progression of hepatocellular carcinoma after thermal ablation.
+PMID	PMID:33259728	2	9	9606	CXCL10,SERPINB2	CXCL10,SERPINB2	1.7e-06	0.0207	(2022) Integrated Analysis of Gene Expression and Metabolite Data Reveals Candidate Molecular Markers in Colorectal Carcinoma.
+PMID	PMID:33904115	3	159	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	2.17e-06	0.0207	(2022) Extracellular Vesicles from Human Adipose-Derived Mesenchymal Stem Cells: A Review of Common Cargos.
+PMID	PMID:34736262	2	9	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.7e-06	0.0207	(2022) Rag2 Deficiency Enhances Susceptibility to Systemic Mouse Adenovirus Type 1 Infection.
+PMID	PMID:34904379	2	7	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.11e-06	0.0207	(2022) The relationship between COVID-19 viral load and disease severity: A systematic review.
+PMID	PMID:35055124	3	118	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	9e-07	0.0207	(2022) The Role of Tumor Microenvironment in the Pathogenesis of Sezary Syndrome.
+PMID	PMID:35167499	3	52	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	8.22e-08	0.0207	(2022) Transcriptional analysis of lung fibroblasts identifies PIM1 signaling as a driver of aging-associated persistent fibrosis.
+PMID	PMID:35185577	3	144	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	1.62e-06	0.0207	(2022) Contributions of Immune Cells and Stromal Cells to the Pathogenesis of Systemic Sclerosis: Recent Insights.
+PMID	PMID:35215849	2	8	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.39e-06	0.0207	(2022) Kinetics of Glycoprotein-Specific Antibody Response in Patients with Severe Fever with Thrombocytopenia Syndrome.
+PMID	PMID:35236376	3	94	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	4.61e-07	0.0207	(2022) The mechanisms of mutual relationship between malignant hematologic cells and mesenchymal stem cells: Does it contradict the nursing role of mesenchymal stem cells?
+PMID	PMID:35240967	2	10	9606	IFNA1,CXCL10	IFNA1,CXCL10	2.04e-06	0.0207	(2022) Deciphering the Significance of Plasma Chemokines as Prognostic Biomarkers in Pegylated IFN-Alpha-2a Ribavirin-Treated Chronic Hepatitis C Genotype 4 Patients.
+PMID	PMID:35268497	2	5	9606	IFNA1,CXCL10	IFNA1,CXCL10	6.49e-07	0.0207	(2022) Different Kinetics of HBV-DNA and HBsAg in HCV Coinfected Patients during DAAs Therapy.
+PMID	PMID:35300413	3	72	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	2.11e-07	0.0207	(2022) Single-Cell Transcriptomics Identifies Heterogeneity of Mouse Mammary Gland Fibroblasts With Distinct Functions, Estrogen Responses, Differentiation Processes, and Crosstalks With Epithelium.
+PMID	PMID:35381199	3	147	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	1.72e-06	0.0207	(2022) LGR5 expressing skin fibroblasts define a major cellular hub perturbed in scleroderma.
+PMID	PMID:35384633	2	10	9606	IFNA1,CXCL10	IFNA1,CXCL10	2.04e-06	0.0207	(2022) Mesenchymal Stem Cell-Derived Extracellular Vesicles in the Management of COVID19-Associated Lung Injury: A Review on Publications, Clinical Trials and Patent Landscape.
+PMID	PMID:35386658	3	33	9606	IFNA1,POSTN,SERPINB2	IFNA1,POSTN,SERPINB2	2.24e-08	0.0207	(2022) Immunoglobulin E-Dependent Activation of Immune Cells in Rhinovirus-Induced Asthma Exacerbation.
+PMID	PMID:35442706	3	82	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	3.09e-07	0.0207	(2022) Steroid-induced fibroblast growth factors drive an epithelial-mesenchymal inflammatory axis in severe asthma.
+PMID	PMID:35458442	2	7	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.11e-06	0.0207	(2022) Isolation and Characterization of Two Pseudorabies Virus and Evaluation of Their Effects on Host Natural Immune Responses and Pathogenicity.
+PMID	PMID:35464474	3	79	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	2.77e-07	0.0207	(2022) The Roles of Noncoding RNAs in Systemic Sclerosis.
+PMID	PMID:35507130	2	6	9606	IFNA1,CXCL10	IFNA1,CXCL10	8.65e-07	0.0207	(2022) Ex vivo effect of JAK inhibition on JAK-STAT1 pathway hyperactivation in patients with dominant-negative STAT3 mutations.
+PMID	PMID:35599306	2	4	9606	IFNA1,CXCL10	IFNA1,CXCL10	4.64e-07	0.0207	(2022) Levels of Antibodies to Hepatitis B Core Antigen Are Associated With Liver Inflammation and Response to Peginterferon in Patients With Chronic Hepatitis B.
+PMID	PMID:35632603	2	6	9606	IFNA1,CXCL10	IFNA1,CXCL10	8.65e-07	0.0207	(2022) Fraternal Twins: The Enigmatic Role of the Immune System in Alphaherpesvirus Pathogenesis and Latency and Its Impacts on Vaccine Efficacy.
+PMID	PMID:35649411	3	112	9606	IFNA1,CXCL10,POSTN	IFNA1,CXCL10,POSTN	7.72e-07	0.0207	(2022) Cross-tissue, single-cell stromal atlas identifies shared pathological fibroblast phenotypes in four chronic inflammatory diseases.
+WikiPathways	WP5088	2	32	9606	IFNA1,CXCL10	IFNA1,CXCL10	1.73e-05	0.0135	Prostaglandin signaling
+WikiPathways	WP3865	2	59	9606	IFNA1,CXCL10	IFNA1,CXCL10	5.63e-05	0.022	Novel intracellular components of RIG-I-like receptor pathway
+WikiPathways	WP4655	2	73	9606	IFNA1,CXCL10	IFNA1,CXCL10	8.54e-05	0.0222	Cytosolic DNA-sensing pathway
+WikiPathways	WP75	2	102	9606	IFNA1,CXCL10	IFNA1,CXCL10	0.00016	0.0321	Toll-like receptor signaling pathway
+WikiPathways	WP5095	2	126	9606	IFNA1,CXCL10	IFNA1,CXCL10	0.00025	0.0389	Overview of proinflammatory and profibrotic mediators
