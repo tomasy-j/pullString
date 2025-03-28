@@ -10,19 +10,29 @@ load_string_js <- function() {
 
 #' Define STRING network parameters
 #'
-#' @param ids s
-#' @param species s
-#' @param add_color_nodes s
-#' @param add_white_nodes h
-#' @param required_score h
-#' @param required_score h
-#' @param network_flavor g
-#' @param network_type g
-#' @param hide_node_labels f
-#' @param hide_disconnected_nodes d
-#' @param show_query_node_labels d
-#' @param block_structure_pics_in_bubbles d
-#' @param caller_identity d
+#' @param ids character vector of identifiers, can be protein names, synonyms,
+#'   ensembl id, ensemble protein id, HGNC symbol, UniProt or mixed
+#' @param species NCBI/STRING taxon, default \code{9606} (human)
+#' @param add_color_nodes adds color nodes based on scores to the input proteins
+#' @param add_white_nodes adds white nodes based on scores to the input proteins
+#'   (added after color nodes)
+#' @param required_score threshold of significance to include an interaction, a
+#'   number between \code{0 and 1000} (default depends on the network)
+#' @param network_flavor the style of edges in the network: evidence (default),
+#'   confidence, actions
+#' @param network_type network type: \code{functional} (default) or
+#'   \code{physical}
+#' @param hide_node_labels hides all protein names from the picture (\code{0 or
+#'   1}), default is \code{0}
+#' @param hide_disconnected_nodes hides all proteins that are not connected to
+#'   any other protein in your network (\code{0 or 1}), default is \code{0}
+#' @param show_query_node_labels when provided use submitted names as protein
+#'   labels in the network image (\code{0 or 1}), default is \code{0}
+#' @param block_structure_pics_in_bubbles disables structure pictures inside the
+#'   bubble (\code{0 or 1}), default is \code{0}
+#' @param caller_identity optional, your identity for \code{STRING DB}
+#'   developers. If left blank, defaults to \code{pullString} and current
+#'   package version
 #' @importFrom shiny tags
 #' @importFrom jsonlite toJSON
 #' @export

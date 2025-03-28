@@ -7,8 +7,8 @@
 string_request_js(
   ids,
   species = 9606,
-  add_color_nodes = 3,
-  add_white_nodes = 5,
+  add_color_nodes = 0,
+  add_white_nodes = 0,
   required_score = 400,
   network_flavor = "confidence",
   network_type = "functional",
@@ -20,29 +20,40 @@ string_request_js(
 )
 }
 \arguments{
-\item{ids}{s}
+\item{ids}{character vector of identifiers, can be protein names, synonyms,
+ensembl id, ensemble protein id, HGNC symbol, UniProt or mixed}
 
-\item{species}{s}
+\item{species}{NCBI/STRING taxon, default \code{9606} (human)}
 
-\item{add_color_nodes}{s}
+\item{add_color_nodes}{adds color nodes based on scores to the input proteins}
 
-\item{add_white_nodes}{h}
+\item{add_white_nodes}{adds white nodes based on scores to the input proteins
+(added after color nodes)}
 
-\item{required_score}{h}
+\item{required_score}{threshold of significance to include an interaction, a
+number between \code{0 and 1000} (default depends on the network)}
 
-\item{network_flavor}{g}
+\item{network_flavor}{the style of edges in the network: evidence (default),
+confidence, actions}
 
-\item{network_type}{g}
+\item{network_type}{network type: \code{functional} (default) or
+\code{physical}}
 
-\item{hide_node_labels}{f}
+\item{hide_node_labels}{hides all protein names from the picture (\code{0 or
+1}), default is \code{0}}
 
-\item{hide_disconnected_nodes}{d}
+\item{hide_disconnected_nodes}{hides all proteins that are not connected to
+any other protein in your network (\code{0 or 1}), default is \code{0}}
 
-\item{show_query_node_labels}{d}
+\item{show_query_node_labels}{when provided use submitted names as protein
+labels in the network image (\code{0 or 1}), default is \code{0}}
 
-\item{block_structure_pics_in_bubbles}{d}
+\item{block_structure_pics_in_bubbles}{disables structure pictures inside the
+bubble (\code{0 or 1}), default is \code{0}}
 
-\item{caller_identity}{d}
+\item{caller_identity}{optional, your identity for \code{STRING DB}
+developers. If left blank, defaults to \code{pullString} and current
+package version}
 }
 \description{
 Define STRING network parameters
