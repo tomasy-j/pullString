@@ -25,7 +25,9 @@ species your proteins come from (see 'species' parameter). In fact API will
 reject queries for networks larger than 10 proteins without the specified
 organism.
 - Current STRING version is 12.0 (https://version-12-0.string-db.org)
-## Usage & examples First, load the package and create a gene set we will use to
+
+## Usage & examples 
+First, load the package and create a gene set we will use to
 query STRING database
 ```
 library(pullString)
@@ -34,6 +36,7 @@ gene_set <- c("POSTN", "IRF1", "CXCL10", "IFNA1", "SERPINB2", "OAS1")
 
 **NOTE:** For more details on each function and full parameter list, look up help pages,
 e.g. `?get_net_interactions`
+
 ### Check current version to check the current STRING database version, run this
 function:
 ```
@@ -86,33 +89,99 @@ for each enriched term
 get_enrichment(ids = gene_set)
 ```
 
+
+### Visualize enrichment results
+To visualize your enrichment results and save `.png` file the path provided, run
+`get_enrichment_plot` function. Color scales can be controlled, see
+`?get_enrichment_plot` for full list of parameters
+```
+get_enrichment_plot(
+  ids = gene_set,
+  png_filename = "./string_enrichment.png"
+)
+```
+
 For other enrichment/annotation tasks, look into:
 ```
-get_functional_annotation
-get_ppi_enrichment
+get_functional_annotation()
+get_ppi_enrichment()
+
 ```
+
+You can get interaction partners of your list of genes and all other STRING
+proteins by running:
+```
+get_interact_partners()
+```
+
+### Homology
+If you want to find homologies across species, you can look into
+`get_best_homology` and `get_homology` functions
+```
+get_best_homology(
+  ids = "POSTN", 
+  species = 9606, # human
+  species_b = 10090 # mouse
+)
+```
+
+STRING internally uses the Smith–Waterman bit scores as a proxy for protein
+homology. The original scores are computed by SIMILARITY MATRIX OF PROTEINS
+(SIMAP) project
 
 
 
-### Other functions:
-```
-get_interact_partners
-get_homology
-get_best_homology
-```
+
 ### Retrieve and save `.png` network and enrichment plot
+
+
+You can retrieve and save STRING network `.png` file on your disk:
 ```
-get_png_network
-get_highres_png_network
-get_enrichment_plot
+get_png_network(
+  ids = gene_set,
+  png_filename = "./string_net.png"
+)
 ```
+
+Help page `?get_png_network` lists all available parameters that you can use to control the
+appearance of the network, node label font size, some of them includde:
+```
+get_png_network(
+  ids = gene_set,
+  custom_label_font_size = 16,          # increase label font size, default is 12
+  flat_node_design = 1,                 # disable 3D bubble design
+  block_structure_pics_in_bubbles = 1,  # removes 3d protein structure pictures inside the bubble
+  png_filename = "./string_net.png"
+)
+```
+
+
+If you want to save a higher resolution `png` image, you can run the function
+below with exact same arguments
+```
+get_highres_png_network()
+```
+
+### Get URL to STRING website with genes you provided
+
+You can also generate a URL link to STRING website:
+```
+get_link(
+  ids = gene_set
+)
+```
+
+
+
 ### Embed interactive netwwork in html Rmarkdown document:
+To include interactive STRING network in your Rmarkdown document (HTML),
+include these (keeping the order) in your document:
+
 ```
-get_link
-load_string_js
-string_request_js
-send_string_request_js
-embed_string_net
+pullString::load_string_js()
+pullString::string_request_js(ids = gene_set)
+pullString::send_string_request_js()
+pullString::embed_string_net()
 ```
 
 
