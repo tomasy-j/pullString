@@ -1,7 +1,6 @@
 # `pullString` - R Interface to STRING database 
 
-![str_readme](https://github.com/user-attachments/assets/29026640-31ae-47df-8c2d-6f0db262dd1d)
-
+![str_highres_readme](https://github.com/user-attachments/assets/58091749-6f3a-4831-bada-445a58b14e08)
 
 ### Installation To install the package from GitHub, run:
 
