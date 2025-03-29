@@ -35,15 +35,23 @@ symbol, etc. onto the STRING protein/gene names by calling:
 ```
 get_string_identifiers(ids = gene_set)
 ```
+This will return all the STRING genes/proteins that were mapped to your input
+and their descriptive annotation. As said earlier, using identifiers that are
+readily understood by STRING, can make querying faster.
 
-```{r}
+By default, this function uses `species = 9606` (human). Here you can browse
+browse all available
+[organisms](https://string-db.org/cgi/input?sessionId=bGTsZdRLTigv&input_page_active_form=organisms)
+and their taxon ids.
 
-print("A")
+
+To retrieve your STRING interaction network for one or multiple proteins. It
+will tell you the combined score and all the channel specific scores for the set
+of proteins. You can also extend the network neighborhood by setting add_nodes,
+which will add, to your network, new interaction partners in order of their
+confidence.
 ```
 
-
-```
-get_string_identifiers
 get_net_interactions
 ```
 
