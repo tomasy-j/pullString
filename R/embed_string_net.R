@@ -8,7 +8,9 @@ load_string_js <- function() {
   )
 }
 
-#' Define STRING network parameters
+#' Embed interactive STRING network
+#'
+#' This function embeds interactive STRING network in your HTML document
 #'
 #' @param ids character vector of identifiers, can be protein names, synonyms,
 #'   ensembl id, ensemble protein id, HGNC symbol, UniProt or mixed

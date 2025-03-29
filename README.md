@@ -172,10 +172,7 @@ get_link(
 
 ### Embed interactive netwwork in html Rmarkdown document:
 To include interactive STRING network in your Rmarkdown document (HTML),
-include these (keeping the order) in your document
-
-**NOTE:** you can control apperance of the network, similarly as you do in 
-`get_png_network` function, by adding argument to `string_request_js` function. Manual page lists them all `?string_request_js`
+include these (keeping the order) in your document:
 
 ```
 pullString::load_string_js()
@@ -183,6 +180,11 @@ pullString::string_request_js(ids = gene_set)
 pullString::send_string_request_js()
 pullString::embed_string_net()
 ```
+
+**NOTE:** you can control apperance of the network, similarly as you do in 
+`get_png_network` function, by adding argument to `string_request_js` function. 
+Manual page lists them all `?string_request_js`. 
+
 
 
 ### Citing STRING DB:
