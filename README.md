@@ -5,9 +5,6 @@
 ### Installation 
 To install the package from GitHub, run:
 
-
-### Installation To install the package from GitHub, run:
-
 ```
 devtools::install_github("tomasy-j/pullString")
 ```
