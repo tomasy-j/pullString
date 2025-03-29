@@ -40,7 +40,7 @@
 }
 
 
-#' Retrieve png network
+#' Retrieve \code{png} network
 #'
 #' Retrieve an image of a STRING network of a neighborhood surrounding one or
 #' more proteins or ask STRING to show only the network of interactions between
@@ -101,6 +101,11 @@
 #' }
 #' @export
 get_png_network <- .create_api_png_resp(endpoint_get_png_network)
+
+
+#' Retrieve higher resolution \code{png} network
+#' @inherit get_png_network
+get_highres_png_network <- .create_api_png_resp(endpoint_get_highres_png_network)
 
 
 #' Get enrichment plot

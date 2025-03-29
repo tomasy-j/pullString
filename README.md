@@ -4,8 +4,8 @@
 
 
 
-### Installation To install the package from GitHub, run:
-
+### Installation 
+To install the package from GitHub, run:
 ```
 devtools::install_github("tomasy-j/pullString")
 ```
@@ -52,6 +52,7 @@ By default, this function uses `species = 9606` (human). You can browse all
 available
 [organisms](https://string-db.org/cgi/input?sessionId=bGTsZdRLTigv&input_page_active_form=organisms)
 and use their taxon id in the function call.
+
 You can retrieve your STRING interaction network for one or multiple proteins.
 It will tell you the combined score and all the channel specific scores for the
 set of proteins. You can also extend the network neighborhood by setting
@@ -70,12 +71,27 @@ get_net_interactions(
 ```
 
 
+### Enrichment analysis
+Using `pullString` you can also perform functional enrichment analysis.
 
+STRING maps several databases onto its proteins, this includes: Gene Ontology,
+KEGG pathways, UniProt Keywords, PubMed publications, Pfam domains, InterPro
+domains, and SMART domains.
+
+This function returns enrichment analysis results table as well as statistics
+for each enriched term
 ```
-get_enrichment
+get_enrichment(ids = gene_set)
+```
+
+For other enrichment/annotation tasks, look into:
+```
 get_functional_annotation
 get_ppi_enrichment
 ```
+
+
+
 ### Other functions:
 ```
 get_interact_partners
@@ -85,6 +101,7 @@ get_best_homology
 ### Retrieve and save `.png` network and enrichment plot
 ```
 get_png_network
+get_highres_png_network
 get_enrichment_plot
 ```
 ### Embed interactive netwwork in html Rmarkdown document:
@@ -95,3 +112,11 @@ string_request_js
 send_string_request_js
 embed_string_net
 ```
+
+
+### Citing STRING DB:
+Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, Mehryary F, Hachilif R, Annika
+GL, Fang T, Doncheva NT, Pyysalo S, Bork P, Jensen LJ, von Mering C.
+**The STRING database in 2023: protein–protein association networks and functional enrichment analyses for any sequenced genome of interest.**
+Nucleic Acids Res. 2023 Jan
+6;51(D1):D638-646.[PubMed](https://pubmed.ncbi.nlm.nih.gov/36370105/)

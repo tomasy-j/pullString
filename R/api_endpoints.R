@@ -57,3 +57,6 @@ endpoint_get_enrichment_plot <- "image/enrichmentfigure"
 
 #' STRING endpoint for \code{.png} network
 endpoint_get_png_network <- "image/network"
+
+#' STRING endpoint for high resolution \code{.png} network
+endpoint_get_highres_png_network <- "highres_image/network"

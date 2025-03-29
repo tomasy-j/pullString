@@ -87,7 +87,7 @@ get_string_identifiers <- .create_api_tsv_resp(endpoint_ids)
 #'
 #'@section Other arguments:
 #' \itemize{
-#'   \item \code{required_score} - threshold of significance to include a
+#'   \item \code{required_score} - threshold of significance to include an
 #'   interaction, a number between 0 and 1000 (default depends on the network)
 #'   \item \code{network_type} - options: \code{functional} (default), or
 #'   \code{physical} come first)
