@@ -1,9 +1,13 @@
 # `pullString` - R Interface to STRING database 
 
-
+![str_highres_readme](https://github.com/user-attachments/assets/58091749-6f3a-4831-bada-445a58b14e08)
 
 ### Installation 
 To install the package from GitHub, run:
+
+
+### Installation To install the package from GitHub, run:
+
 ```
 devtools::install_github("tomasy-j/pullString")
 ```
