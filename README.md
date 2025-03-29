@@ -1,7 +1,5 @@
 # `pullString` - R Interface to STRING database 
 
-![string_net](./str_readme.png)
-
 
 
 ### Installation 
